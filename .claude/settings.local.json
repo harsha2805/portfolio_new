@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "WebFetch(domain:holostack.in)",
+      "mcp__mempalace__mempalace_diary_write",
+      "mcp__mempalace__mempalace_add_drawer",
+      "mcp__mempalace__mempalace_kg_add",
+      "Read(//d/herd/portfolio/**)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(python *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(php artisan *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "laravel-boost"
+  ]
+}
